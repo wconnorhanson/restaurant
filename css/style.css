@@ -1,3 +1,156 @@
 :root {
-    --base: #;
+    --red: #df473a;
+    --yellow: #fff8ce;
+    --bg1: #f5eedc;
+    --bg2: #f9f5ea;
+    --gray1: #66635e;
+    --gray2: #5c5954;
+    --gray3: #413e39;
+    --green: #999e03;
+    --textColor: #762931;
+    --font1: 'PT Sans', sans-serif;
+    --font2: 'Open Sans', sans-serif;
+    --client1: 'Caveat', cursive;
+    --client2: 'Courier Prime', monospace;
+    --client3: 'Oooh Baby', cursive;
+    --client4: 'Qwitcher Grypen', cursive;
+    --grad: linear-gradient(#f86659, var(--red));
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font2);
+    scroll-behavior: smooth;
+}
+
+/* classes */
+
+.blurb {
+    font-size: 1.5rem;
+    color: var(--textColor);
+    font-weight: 200;
+}
+
+.carousel-img {
+    height: 45vh;
+}
+
+.fs1-heading {
+    color: var(--textColor);
+}
+
+.fs1-subheading {
+    color: var(--green);
+}
+
+.fs3-heading {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.fs3-list li, .fs3-text {
+    color: #aaa;
+}
+
+.icons {
+    font-size: 1.5rem;
+    color: var(--green)
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.social-link {
+    color: var(--yellow);
+}
+
+.main-nav-link {
+    color: var(--yellow);
+}
+
+.main-nav-link:hover {
+    color: black;
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: var(--yellow);
+}
+
+.my-figure {
+    background-color: #fff;
+    box-shadow: 0 5px 5px #888;
+}
+
+.figure-heading {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-logo, .heading {
+    font-family: var(--font1);
+    font-weight: 700;
+}
+
+.tint {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+    background-color: black;
+    opacity: 0.60;
+}
+
+/* ids */
+
+#carouselSection {
+    width: 100%;
+    height: 45vh;
+    background-image: url(../images/food4.jpg);
+    position: relative;
+}
+
+#headerSection1 {
+    background-color: var(--red);
+}
+
+#headerSection2 {
+    background-color: var(--red);
+    background-image: var(--grad);
+    padding: 20px 0;
+}
+
+#headerSection3 {
+    padding: 10px 0;
+    background-color: var(--yellow);
+}
+
+#figureSection {
+    padding: 32px 0;
+    background-color: var(--bg1);
+}
+
+#footerSection1 {
+    padding: 32px 0;
+    background-color: var(--bg2);
+}
+
+#footerSection2 {
+    padding: 32px 0;
+    color: var(--yellow);
+    background-color: var(--gray1);
+}
+
+#footerSection3 {
+    padding: 32px 0;
+    background-color: var(--gray2);
+}
+
+#footerSection4 {
+    background-color: var(--gray3);
+    padding: 32px 0;
 }
