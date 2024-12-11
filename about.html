@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>About</title>
+    <title>Document</title>
 </head>
 <body>
     <!-- header -->
     <header class="header" id="header">
-        <section class="sectaion" id="headerSection1">
+        <section class="section" id="headerSection1">
             <div class="container">
                 <nav class="nav justify-content-center justify-content-md-end">
                     <a href="#" class="nav-link social-link">
@@ -31,7 +31,7 @@
                     </a>
                     <a href="#" class="nav-link social-link">
                         <i class="bi bi-pinterest"></i>
-                        <span class="visually-hidden">pinterist</span>
+                        <span class="visually-hidden">pinterest</span>
                     </a>
                     <a href="#" class="nav-link social-link">
                         <i class="bi bi-linkedin"></i>
@@ -40,19 +40,21 @@
                 </nav>
             </div>
         </section>
-        <section class="sectaion" id="headerSection2">
+        <section class="section" id="headerSection2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
                         <h1 class="heading text-capitalize text-center text-md-start">
-                            <a href="index.html" class="text-light text-decoration-none">Restaurant</a>
+                            <a href="index.html" class="text-light text-decoration-none">
+                                restaurant
+                            </a>
                         </h1>
                     </div>
-                    <!-- dropdown will be hidden on large -->
-                    <div class="col-lg-8 text-center ">
+                    <div class="col-lg-8">
+                        <!-- drop down will be hidden on large devices -->
                         <div class="drop-down-div d-lg-none">
                             <div class="dropdown text-center text-sm-end">
-                                <button 
+                                <button
                                     class="btn dropdown-btn dropdown-toggle"
                                     type="button"
                                     data-bs-toggle="dropdown"
@@ -60,44 +62,44 @@
                                 >Select Tab</button>
                                 <ul class="dropdown-menu text-uppercase">
                                     <li>
-                                        <a href="about.html" class="dropdown-item main-nav-link">about</a>
+                                        <a href="about.html" class="dropdown-item">about</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item main-nav-link">events</a>
+                                        <a href="#" class="dropdown-item">events</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item main-nav-link">menu</a>
+                                        <a href="menu.html" class="dropdown-item">menu</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item main-nav-link">gallery</a>
+                                        <a href="#" class="dropdown-item">gallery</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item main-nav-link">contacts</a>
+                                        <a href="#" class="dropdown-item">contacts</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item main-nav-link">blog</a>
+                                        <a href="#" class="dropdown-item">blog</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <!-- nav will be hidden on small devices -->
-                        <nav class="nav d-none d-lg-flex main-nav text-uppercase justify-content-lg-end" id="mainNav">
-                            <a href="#" class="nav-link main-nav-link">about</a>
-                            <a href="#" class="nav-link main-nav-link">events</a>
-                            <a href="#" class="nav-link main-nav-link">menu</a>
-                            <a href="#" class="nav-link main-nav-link">gallery</a>
-                            <a href="#" class="nav-link main-nav-link">contacts</a>
-                            <a href="#" class="nav-link main-nav-link">blog</a>
+                        <nav class="nav d-none d-lg-flex main-nav justify-content-lg-end" id="mainNav">
+                            <a href="about.html" class="nav-link main-nav-link text-uppercase">about</a>
+                            <a href="#" class="nav-link main-nav-link text-uppercase">events</a>
+                            <a href="menu.html" class="nav-link main-nav-link text-uppercase">menu</a>
+                            <a href="#" class="nav-link main-nav-link text-uppercase">gallery</a>
+                            <a href="#" class="nav-link main-nav-link text-uppercase">contacts</a>
+                            <a href="#" class="nav-link main-nav-link text-uppercase">blog</a>
                         </nav>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="sectaion" id="headerSection3">
+        <section class="section" id="headerSection3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <p class="blurb text-center text-md-start fst-italic">Top quality ingredients only in our kitchen</p>
+                        <p class="blurb text-center text-md-start fst-italic">Top quality ingredients only in our kitchen!</p>
                     </div>
                     <div class="col-md-3 offset-md-6">
                         <form action="#" class="form search-form">
@@ -114,42 +116,43 @@
             </div>
         </section>
     </header>
-    <!-- Main -->
-        <section class="section" id="about">
+
+    <!-- main -->
+    <main class="main" id="main">
+        <section class="section" id="bannerSection">
             <div class="container-fluid">
-                <img src="images/food4.jpg" alt="an assortment of ingredients" class="img-fluid banner-img w-100">
+                <img src="images/foodpic1.jpg" alt="A grilled pork chop with roasted potatoes on top and garnished with green onion and lettuce." class="img-fluid banner-img w-100">
             </div>
-            <!-- <div id="aboutTop">
-                <div class="about-tint"></div>
-                <div id="aboutImage"></div>
-            </div> -->
+        </section>
+        <section class="section" id="aboutSection">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <div  id="aboutBlock">
-                            <h2 class="heading text-uppercase text-danger">about</h2>
-                            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat est neque iusto perferendis aliquam ullam necessitatibus placeat reiciendis! Aperiam voluptate officiis veniam reprehenderit commodi? Iste consequuntur dolores nulla! Voluptatum dolores soluta repudiandae maxime harum repellendus, tempore quia at ab labore quis, veniam expedita sapiente architecto odio ducimus voluptates hic est sequi, doloremque rem quam? Eum praesentium tempore ea commodi incidunt sunt ad aspernatur ipsum rem! Est dolorem consequatur mollitia nobis hic nulla praesentium ab eius, ad iste error. Dolores, adipisci animi eos amet temporibus molestiae hic similique cupiditate dolor, nam dolorum, ratione accusantium exercitationem facere labore quos expedita! Deleniti, numquam.</p>
-                            <p class="about-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni numquam expedita dolores inventore omnis doloribus rerum alias quia temporibus vel, qui officia beatae exercitationem minima tempore praesentium voluptates facilis. Assumenda cumque quod totam, mollitia quisquam quas voluptates molestias fuga recusandae repellendus. Eveniet totam cupiditate hic alias iusto suscipit quos?</p>
-                            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rem quasi nostrum, facere, voluptatem ab laudantium praesentium deserunt autem quod alias? Saepe, error perspiciatis asperiores quis animi ea quaerat adipisci iusto rem velit laborum placeat ipsa temporibus eius sequi cupiditate nobis inventore? Explicabo totam alias possimus quaerat culpa, fugiat eos voluptatum expedita ab omnis ducimus! Ea nobis animi optio accusantium iusto, provident totam eaque eius voluptatibus earum sit ad ab harum nihil odio inventore omnis soluta. Perspiciatis, non veniam. Excepturi illum officiis sapiente? Quam commodi molestias error omnis explicabo! Quibusdam iste reiciendis iusto ex porro pariatur, rem mollitia voluptas consequatur!</p>
-                            <p class="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ut omnis modi voluptatem architecto neque quaerat, optio illo consequuntur maiores amet dolores dolorum necessitatibus provident et beatae nihil ab inventore veritatis adipisci eligendi minus voluptatum? Laborum consequuntur fugit aliquid qui, reiciendis hic omnis repellendus rerum in assumenda cum delectus fuga?</p>
+                        <div class="about-div">
+                            <h2 class="about-heading text-danger text-uppercase">about</h2>
+                            <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos error cupiditate impedit ratione dolore doloribus harum maxime magnam laborum laboriosam quidem reprehenderit eum vitae numquam quod dolorem, ea quasi corporis nisi asperiores omnis dolor enim. Repellendus, alias similique! Deserunt quaerat officiis, iusto libero optio sunt quos ratione sed praesentium assumenda tenetur ab soluta consectetur labore hic ex qui perferendis, vel, illum fuga sint obcaecati totam dicta molestiae? </p>
+                            <p class="about-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque illum autem repellat error minus ab, fugiat veniam. Magni laboriosam facilis libero dicta accusantium autem pariatur at esse, soluta exercitationem incidunt vitae, ducimus consequatur molestias ex. </p>
+                            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus amet doloribus ipsum beatae vitae numquam odio aliquam magni dignissimos? Nobis, sint, consectetur ipsam asperiores assumenda exercitationem dolor qui molestiae illum enim in veniam doloribus commodi voluptates suscipit laboriosam tempore vel amet fuga corrupti? Non odit aspernatur accusamus aut, tempore ipsa laudantium minus dolore recusandae est molestiae veritatis sint veniam iure. </p>
+                            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus maxime amet, unde illo dolorem hic, sed doloribus nam quaerat voluptates aliquam recusandae similique nulla explicabo quisquam! Aperiam praesentium velit inventore officiis. Ab aut odio corrupti quam fugiat. Debitis quod praesentium, natus ad in, ipsum, maiores deserunt aliquid veritatis ratione assumenda?</p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <figure class="figure my-figure about-figure">
-                            <img src="images/img3.jpg" alt="A picture of a chef" class="img-fluid w-100 figure-img">
-                            <h2 class="figure-heading text-danger text-uppercase ps-4 ">Employment</h2>
-                            <figcaption class="figure-caption ps-4">Lorem ipsum dolor sit, amet consectetur adipisicing.</figcaption>
+                        <figure class="figure my-figure">
+                            <img src="images/img3.jpg" alt="A chef grinning" class="img-fluid w-100 figure-img" />
+                            <h2 class="figure-heading text-danger text-uppercase ps-4">employment</h2>
+                            <figcaption class="figure-caption ps-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption>
                         </figure>
-                        <figure class="figure my-figure about-figure">
-                            <img src="images/img6.jpg" alt="a plate of spring rolls" class="img-fluid w-100 figure-img">
-                            <h2 class="figure-heading text-danger text-uppercase ps-4 ">fresh ideas</h2>
-                            <figcaption class="figure-caption ps-4">Lorem ipsum dolor sit, amet consectetur adipisicing.</figcaption>
+                        <figure class="figure my-figure">
+                            <img src="images/img6.jpg" alt="A small plate of two fried spring rolls" class="img-fluid w-100 figure-img" />
+                            <h2 class="figure-heading text-danger text-uppercase ps-4">fresh ideas</h2>
+                            <figcaption class="figure-caption ps-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
         </section>
-    <!-- Footer -->
+    </main>
+
     <footer class="footer" id="footer">
         <section class="section" id="footerSection1">
             <div class="container">
@@ -162,10 +165,10 @@
                             </div>
                             <div class="col-sm-11">
                                 <h3 class="fs1-subheading">
-                                    <span class="small-text text-uppercase d-block">offer one</span>
+                                    <span class="small-text d-block text-uppercase">offer one</span>
                                     Lorem, ipsum dolor.
                                 </h3>
-                                <p class="fs1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim voluptas dolorum beatae vitae dolor unde dolores consectetur quidem quas reprehenderit ratione aperiam, nisi repudiandae cumque, magni ad rem! Repudiandae esse deserunt doloremque perferendis ipsa.</p>
+                                <p class="fs1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis autem ipsum itaque beatae cumque soluta voluptatibus at in doloribus, quia delectus dolore dolor distinctio repudiandae officiis! Rem ratione quam eligendi illum, placeat id culpa laboriosam!</p>
                                 <a href="#" class="fs1-link text-danger text-decoration-none">&gt;&gt; Click here</a>
                             </div>
                         </div>
@@ -177,10 +180,10 @@
                             </div>
                             <div class="col-sm-11">
                                 <h3 class="fs1-subheading">
-                                    <span class="small-text text-uppercase d-block">offer two</span>
+                                    <span class="small-text d-block text-uppercase">offer two</span>
                                     Lorem, ipsum dolor.
                                 </h3>
-                                <p class="fs1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim voluptas dolorum beatae vitae dolor unde dolores consectetur quidem quas reprehenderit ratione aperiam, nisi repudiandae cumque, magni ad rem! Repudiandae esse deserunt doloremque perferendis ipsa.</p>
+                                <p class="fs1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis autem ipsum itaque beatae cumque soluta voluptatibus at in doloribus, quia delectus dolore dolor distinctio repudiandae officiis! Rem ratione quam eligendi illum, placeat id culpa laboriosam!</p>
                                 <a href="#" class="fs1-link text-danger text-decoration-none">&gt;&gt; Click here</a>
                             </div>
                         </div>
@@ -192,10 +195,10 @@
                             </div>
                             <div class="col-sm-11">
                                 <h3 class="fs1-subheading">
-                                    <span class="small-text text-uppercase d-block">offer two</span>
+                                    <span class="small-text d-block text-uppercase">offer three</span>
                                     Lorem, ipsum dolor.
                                 </h3>
-                                <p class="fs1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim voluptas dolorum beatae vitae dolor unde dolores consectetur quidem quas reprehenderit ratione aperiam, nisi repudiandae cumque, magni ad rem! Repudiandae esse deserunt doloremque perferendis ipsa.</p>
+                                <p class="fs1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis autem ipsum itaque beatae cumque soluta voluptatibus at in doloribus, quia delectus dolore dolor distinctio repudiandae officiis! Rem ratione quam eligendi illum, placeat id culpa laboriosam!</p>
                                 <a href="#" class="fs1-link text-danger text-decoration-none">&gt;&gt; Click here</a>
                             </div>
                         </div>
@@ -206,11 +209,21 @@
         <section class="section" id="footerSection2">
             <div class="container">
                 <div class="row">
-                    <div class="col text-center" id="client1">Client Logo</div>
-                    <div class="col text-center" id="client2">Client Logo</div>
-                    <div class="col d-none d-md-block text-center" id="client3">Client Logo</div>
-                    <div class="col d-none d-md-block text-center" id="client4">Client Logo</div>
-                    <div class="col d-none d-md-block text-center" id="client5">Client Logo</div>
+                    <div class="col">
+                        <p class="text-center" id="client1">Client Logo</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-center" id="client2">Client Logo</p>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <p class="text-center" id="client3">Client Logo</p>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <p class="text-center" id="client4">Client Logo</p>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <p class="text-center" id="client5">Client Logo</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -219,15 +232,15 @@
                 <div class="row">
                     <div class="col-md-3">
                         <h2 class="text-uppercase fs3-heading text-light">about us</h2>
-                        <p class="fs3-text fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi itaque ducimus pariatur.</p>
-                        <p class="fs3-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quos sunt minima, at est laboriosam ducimus fuga perferendis quae sit, provident quaerat consequatur, neque obcaecati.</p>
+                        <p class="fs3-text fst-italic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam earum non temporibus.</p>
+                        <p class="fs3-text fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos incidunt, reprehenderit earum dolorum totam, ipsa odio ad expedita beatae excepturi at aperiam cum optio tempore?</p>
                         <a href="#" class="fs3-link text-light">&gt;&gt;Read more</a>
                     </div>
                     <div class="col-md-3">
                         <h2 class="text-uppercase fs3-heading text-light">our blog</h2>
                         <ul class="list-unstyled fs3-list">
-                            <li class="fs3-text"><a href="#" class="fs3-link text-light text-decoration-none">Lorem ipsum dolor sit</a> amet consectetur adipisicing elit. Inventore temporibus atque, excepturi suscipit aliquid libero veritatis maxime qui dolores. Rerum unde provident veniam odit.</li>
-                            <li class="fs3-text"><a href="#" class="fs3-link text-light text-decoration-none">Lorem ipsum dolor sit</a> amet consectetur adipisicing elit. Inventore temporibus atque, excepturi suscipit aliquid libero veritatis maxime qui dolores. Rerum unde provident veniam odit.</li>
+                            <li class="fs3-text"><a href="#" class="fs3-link text-light text-decoration-none">Lorem ipsum dolor sit</a> amet consectetur adipisicing elit. Veniam tempore quia officiis beatae. Similique quam repellendus animi dolores? Doloribus, quod exercitationem.</li>
+                            <li class="fs3-text"><a href="#" class="fs3-link text-light text-decoration-none">Lorem ipsum dolor sit</a> amet consectetur adipisicing elit. Veniam tempore quia officiis beatae. Similique quam repellendus animi dolores? Doloribus, quod exercitationem.</li>
                         </ul>
                     </div>
                     <div class="col-md-3">
@@ -241,7 +254,7 @@
                             <li>Mobile: 601-777-9311</li>
                             <li>Telephone: 769-867-5309</li>
                             <li>Fax: 228-222-2222</li>
-                            <li><a href="mailto:wconnorhanson@gmail.com" class="fs3-link text-decoration-none text-light">Email: wconnorhanson@gmail.com</a></li>
+                            <li><a href="mailto:satchwerk@gmail.com" class="fs3-link text-decoration-none text-light">Email: satchwerk@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -250,15 +263,16 @@
         <section class="section" id="footerSection4">
             <div class="container">
                 <h2 class="footer-logo text-center text-md-start text-capitalize text-light">restaurant</h2>
-                <p class="colophon text-center text-md-start text-light">site by William Hanson</p>
+                <p class="colophon text-center text-md-start text-light"> site by 
+                    <a class="site-link text-light" href="https://www.satchwerk.com" target="_blank">satchwerk</a>
+                </p>
                 <p class="text-center text-md-start">
                     <a href="#headerSection1" class="text-light">Back to Top</a>
                 </p>
             </div>
         </section>
     </footer>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-
